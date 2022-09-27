@@ -1,0 +1,21 @@
+p:hover {
+    color:papayawhip;
+}
+
+p {
+    font-size: 50pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: mintcream;
+    text-align: right;
+}
+
+h1 {
+    font-size: 75pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:palegoldenrod;
+
+
+}
+
+body {
+    background-color: midnightblue;}

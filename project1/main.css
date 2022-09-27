@@ -1,0 +1,86 @@
+body {
+    background-color: antiquewhite;
+}
+ul {
+
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    white-space: nowrap;
+    -webkit-animation: scrolling-left1 15s linear infinite;
+	animation: scrolling-left1 10s linear infinite;
+}
+
+
+#one {
+    font-size: 50pt;
+}
+
+
+#two {
+    font-size: 100pt;
+}
+
+#three {
+    font-size: 20pt;
+}
+
+#four {
+    font-size: 60pt;
+}
+
+#five {
+    font-size: 250pt;
+}
+
+#six {
+    font-size: 30pt;
+}
+
+#seven {
+    font-size: 90pt;
+}
+
+#eight {
+    font-size: 170pt;
+}
+
+#nine {
+    font-size: 80pt;
+
+}
+
+#ten {
+    font-size: 70pt;
+}
+
+#eleven {
+    font-size: 300pt;
+
+}
+
+#tweleve {
+    font-size: 500pt;
+}
+
+          @keyframes scrolling-left1 {
+            0% {transform: translateX(100%);
+                -webkit-transform: translateX(100%);}
+              100% {transform: translateX(-100%);
+                  -webkit-transform: translateX(-100%);}
+        }
+        @keyframes scrolling-left2 {
+            0% {transform: translateX(0%);
+                -webkit-transform: translateX(0%);}
+              100% {transform: translateX(-200%);
+                  -webkit-transform: translateX(-200%);}
+        }
+        
+        @-webkit-keyframes scrolling-left1 {
+            0% {-webkit-transform: translateX(100%);}
+              100% {-webkit-transform: translateX(-100%);}
+        }
+        @-webkit-keyframes scrolling-left2 {
+            0% {-webkit-transform: translateX(0%);}
+              100% {-webkit-transform: translateX(-200%);}
+        }
+        
