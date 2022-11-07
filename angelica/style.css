@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+}
+
+#rob {
+    margin-left: 120px;
+    opacity: 0%;
+}
+
+h1{
+    font-family:'Shrikhand', cursive;
+    color: white;
+    font-size: 65px;
+    position: absolute;
+    margin-left: 50px;
+
+}
+
+#rob:hover
+    {background-image: url('bruce.jpeg');
+    opacity: 100%;}
+h1:hover {
+    text-shadow: chartreuse 15px 15px;
+}
