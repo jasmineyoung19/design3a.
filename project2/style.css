@@ -7,7 +7,10 @@ h1 {
   color: ivory;
   font-size: 80px;
 }
-
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(155, 15, 61);
+}
 .heading {
   text-transform: capitalize;
   line-height: 100%;
